@@ -1,9 +1,9 @@
-PWD /home/luna/5BHWII/HCIN/Human_AI_Interaktions
+PWD /home/luna/5BHWII/HCIN/HCIN-dokument
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/luna/5BHWII/HCIN/Human_AI_Interaktions/Dokumentation.tex
+INPUT /home/luna/5BHWII/HCIN/HCIN-dokument/Dokumentation.tex
 OUTPUT Dokumentation.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -187,6 +187,7 @@ INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT Dokumentation.aux
 INPUT ./Dokumentation.out
 INPUT ./Dokumentation.out
@@ -194,3 +195,4 @@ INPUT Dokumentation.run.xml
 OUTPUT Dokumentation.run.xml
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb

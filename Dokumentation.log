@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.27)  21 JAN 2025 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.27)  27 JAN 2025 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/luna/5BHWII/HCIN/Human_AI_Interaktions/Dokumentation.tex
-(/home/luna/5BHWII/HCIN/Human_AI_Interaktions/Dokumentation.tex
+**/home/luna/5BHWII/HCIN/HCIN-dokument/Dokumentation.tex
+(/home/luna/5BHWII/HCIN/HCIN-dokument/Dokumentation.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -563,41 +563,102 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.38 \newpage
               [1]
-Overfull \hbox (21.81186pt too wide) in paragraph at lines 41--41
+Overfull \hbox (21.81186pt too wide) in paragraph at lines 40--40
 []\T1/lmr/bx/n/17.28 Einleitung: Ein-führung in die Mensch-KI-Interaktion 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 50.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (4.93266pt too wide) in paragraph at lines 50--51
-[]\T1/lmr/bx/n/12 Sprach- und Hörver-ar-beitung: \T1/lmr/m/n/12 Nutzung von Sprachas-sis-ten-ten und Spracherken-
+
+Overfull \hbox (1.48961pt too wide) in paragraph at lines 44--45
+\T1/lmr/m/n/12 Rolle, wie die Sim-u-la-tion men-schlicher Eigen-schaften, beispiel-sweise durch Stimme, Mimik
  []
 
-[2{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (53.23198pt too wide) in paragraph at lines 78--78
+[2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 55.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (10.72911pt too wide) in paragraph at lines 57--59
+\T1/lmr/m/n/12 Bilderken-nung, Ob-jek-t-de-tek-tion und Bild-klas-si-fika-tion, wie sie in au-tonomen Fahrzeu-
+ []
+
+[3{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (53.23198pt too wide) in paragraph at lines 87--87
 []\T1/lmr/bx/n/17.28 Aktuelle Schnittstellen und An-wen-dun-gen der Bilderken-
  []
 
-
-Overfull \hbox (5.42761pt too wide) in paragraph at lines 100--100
-[]\T1/lmr/bx/n/17.28 KI in der Ar-beitswelt: An-wen-dun-gen in ver-schiede-
- []
-
-[3]
-Overfull \hbox (17.9081pt too wide) in paragraph at lines 111--111
-[]\T1/lmr/bx/n/17.28 Vermenschlichung der KI und Un-canny Valley-Effekt 
- []
-
 [4]
-Overfull \hbox (0.33722pt too wide) in paragraph at lines 150--151
-[]\T1/lmr/m/n/12 Künstliche In-tel-li-genz bi-etet enormes Poten-zial, er-fordert je-doch auch sorgfältige Anal-
+Overfull \hbox (14.67813pt too wide) in paragraph at lines 106--108
+\T1/lmr/m/n/12 Sicher-heits-maÿ-nah-men wie Ver-schlüs-selung, Zu-griff-skon-trollen und regelmäÿige Sicher-
  []
 
 [5]
+Overfull \hbox (5.42761pt too wide) in paragraph at lines 123--123
+[]\T1/lmr/bx/n/17.28 KI in der Ar-beitswelt: An-wen-dun-gen in ver-schiede-
+ []
 
-LaTeX Warning: Empty bibliography on input line 154.
+
+Overfull \hbox (0.16368pt too wide) in paragraph at lines 125--126
+\T1/lmr/m/n/12 Künstliche In-tel-li-genz (KI) rev-o-lu-tion-iert die Ar-beitswelt und eröffnet neue Möglichkeiten,
+ []
+
+
+Overfull \hbox (1.60027pt too wide) in paragraph at lines 125--126
+\T1/lmr/m/n/12 Prozesse ef-fizien-ter und in-no-va-tiver zu gestal-ten. Dabei findet KI in na-hezu allen Branchen
+ []
+
+
+Overfull \hbox (15.96138pt too wide) in paragraph at lines 127--129
+\T1/lmr/m/n/12 (Pre-dic-tive Main-te-nance) und Pro-duk-tion-sprozesse zu op-ti-mieren. In-tel-li-gente Roboter
+ []
+
+
+Overfull \hbox (9.35289pt too wide) in paragraph at lines 130--132
+\T1/lmr/m/n/12 Anal-yse medi-zinis-cher Bilder und der En-twick-lung per-son-al-isierter Be-hand-lungspläne.
+ []
+
+
+Overfull \hbox (4.59116pt too wide) in paragraph at lines 130--132
+\T1/lmr/m/n/12 auÿer-dem dazu bei, ad-min-is-tra-tive Auf-gaben zu au-toma-tisieren und somit Fachkräfte
+ []
+
+[6]
+Overfull \hbox (2.442pt too wide) in paragraph at lines 139--141
+[]\T1/lmr/bx/n/12 Kreativwirtschaft: Un-ter-stützung in Kunst und Me-dien \T1/lmr/m/n/12 KI wird zunehmend
+ []
+
+[7]
+Overfull \hbox (17.9081pt too wide) in paragraph at lines 151--151
+[]\T1/lmr/bx/n/17.28 Vermenschlichung der KI und Un-canny Valley-Effekt 
+ []
+
+[8]
+Overfull \hbox (14.28508pt too wide) in paragraph at lines 165--167
+\T1/lmr/m/n/12 Nutzern die Möglichkeit, emo-tionale Bindun-gen aufzubauen. Sie simulieren Gespräche,
+ []
+
+
+Overfull \hbox (12.53694pt too wide) in paragraph at lines 168--170
+[]\T1/lmr/bx/n/12 KI-gestützte Ther-a-piean-sätze: \T1/lmr/m/n/12 In der psy-chis-chen Gesund-heit wird KI zunehmend
+ []
+
+
+Overfull \hbox (1.83757pt too wide) in paragraph at lines 168--170
+\T1/lmr/m/n/12 für per-son-al-isierte Ther-a-pien einge-setzt. Virtuelle Ther-a-peuten analysieren Sprache,
+ []
+
+
+Overfull \hbox (5.075pt too wide) in paragraph at lines 174--176
+\T1/lmr/m/n/12 Men-schen oder Men-schen mit Be-hin-derun-gen, ak-tiv am sozialen Leben teilzunehmen. 
+ []
+
+[9] [10]
+Overfull \hbox (0.33722pt too wide) in paragraph at lines 205--206
+[]\T1/lmr/m/n/12 Künstliche In-tel-li-genz bi-etet enormes Poten-zial, er-fordert je-doch auch sorgfältige Anal-
+ []
+
+[11]
+
+LaTeX Warning: Empty bibliography on input line 209.
 
 (./Dokumentation.aux)
  ***********
@@ -611,18 +672,18 @@ Package logreq Info: Writing requests to 'Dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16317 strings out of 474222
- 285623 string characters out of 5748733
+ 16325 strings out of 474222
+ 285660 string characters out of 5748733
  1929975 words of memory out of 5000000
- 38398 multiletter control sequences out of 15000+600000
- 580528 words of font info for 46 fonts, out of 8000000 for 9000
+ 38399 multiletter control sequences out of 15000+600000
+ 584790 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,81p,1925b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
-Output written on Dokumentation.pdf (6 pages, 73302 bytes).
+ 75i,6n,81p,1917b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
+Output written on Dokumentation.pdf (12 pages, 104190 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
