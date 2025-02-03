@@ -7,7 +7,9 @@
 \contentsline {section}{\numberline {7}KI in der Arbeitswelt: Anwendungen in verschiedenen Branchen}{6}{section.7}%
 \contentsline {section}{\numberline {8}Vermenschlichung der KI und Uncanny Valley-Effekt}{8}{section.8}%
 \contentsline {section}{\numberline {9}KI und emotionale Themen: Liebe, Trauer, Einsamkeit}{9}{section.9}%
-\contentsline {section}{\numberline {10}Psychologische Auswirkungen von KI}{10}{section.10}%
-\contentsline {section}{\numberline {11}Gesellschaftliche Implikationen}{10}{section.11}%
-\contentsline {section}{\numberline {12}Praktische Erfahrungen mit KI}{10}{section.12}%
-\contentsline {section}{\numberline {13}Schlussfolgerung und Ausblick}{11}{section.13}%
+\contentsline {section}{\numberline {10}Psychologische Auswirkungen von KI}{11}{section.10}%
+\contentsline {section}{\numberline {11}Gesellschaftliche Implikationen}{11}{section.11}%
+\contentsline {section}{\numberline {12}Praktische Erfahrungen mit KI}{11}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Erfahrung mit der Vermenschlichung von KI}{11}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Erfahrung mit der Bilderkennung und Bildgenerierung}{12}{subsection.12.2}%
+\contentsline {section}{\numberline {13}Schlussfolgerung und Ausblick}{13}{section.13}%
