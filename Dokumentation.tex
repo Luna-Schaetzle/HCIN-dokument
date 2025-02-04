@@ -63,34 +63,63 @@ Dieser Bereich umfasst textbasierte Interaktionen, wie sie durch KI-Systeme wie 
 
 Diese Interaktionsformen verdeutlichen die Bandbreite der Kommunikation zwischen Mensch und KI und zeigen zugleich die Potenziale und Grenzen aktueller Technologien auf. Ziel ist es, die Interaktion so natürlich und intuitiv wie möglich zu gestalten, um den Menschen optimal in seinen Tätigkeiten zu unterstützen.
 
-% Grundlagen der Bilderkennung
-\section{Grundlagen der Bilderkennung}
+\section{Visuelle Verarbeitung und Bilderkennung}
+\subsection{Grundlagen der Bilderkennung}
+Bilderkennung basiert auf der Fähigkeit, Bilddaten zu analysieren und relevante Informationen zu extrahieren. Ziel ist es, Inhalte wie Szenen, Objekte oder Personen automatisch zu erkennen und zu interpretieren.
 
-Bilderkennung ist eine Schlüsseltechnologie der künstlichen Intelligenz, die darauf abzielt, visuelle Daten zu analysieren und zu interpretieren. Grundlagen umfassen:
+\subsubsection{Maschinelles Lernen in der Bilderkennung}
+Maschinelles Lernen (ML) ist die Schlüsseltechnologie hinter der KI-Bilderkennung. Durch das Training mit großen Bilddatensätzen kann eine KI Muster und Merkmale identifizieren und für neue Eingaben Vorhersagen treffen. Man unterscheidet zwischen:
 \begin{itemize}
-    \item Pixelbasierte Verarbeitung von Bilddaten.
-    \item Nutzung von Algorithmen wie Convolutional Neural Networks (CNNs).
-    \item Anwendungen in Objekterkennung, Gesichtserkennung und medizinischer Bildanalyse.
+    \item \textbf{Supervised Learning:} Trainingsdaten mit bekannten Labels (z. B. Schere-Stein-Papier)
+    \item \textbf{Unsupervised Learning:} Unbeschriftete Daten werden analysiert, um Muster zu entdecken (z. B. Fashion-MNIST)
 \end{itemize}
 
-% Technische Analyse der Bilderkennung
-\section{Technische Analyse der Bilderkennung}
+Je besser die Trainingsdaten, desto präziser sind die Ergebnisse der Bilderkennung.
 
-Eine technische Analyse umfasst die Verarbeitungsschritte, Datenanforderungen und Algorithmen. CNNs bestehen aus Schichten, die Features wie Kanten, Formen und Texturen extrahieren. Herausforderungen sind:
+\subsection{Neuronale Netzwerke für Bilderkennung}
+Neuronale Netzwerke sind entscheidend für die Bildverarbeitung. Sie bestehen aus mehreren Schichten, die Eingaben schrittweise verarbeiten:
 \begin{itemize}
-    \item Rechenleistung.
-    \item Trainingsdaten.
-    \item Bias in den Daten.
+    \item \textbf{Input Layer:} Nimmt Bilddaten als Eingabe.
+    \item \textbf{Hidden Layers:} Verarbeitet die Eingabe und erkennt Muster wie Kanten, Formen oder Farben.
+    \item \textbf{Output Layer:} Gibt die Klassifikation oder das Ergebnis aus.
 \end{itemize}
 
-% Aktuelle Schnittstellen und Anwendungen der Bilderkennung
-\section{Aktuelle Schnittstellen und Anwendungen der Bilderkennung}
+\subsection{Typen von neuronalen Netzwerken für Bilderkennung}
 
-\textbf{Anwendungsbereiche:}
+\subsubsection{Convolutional Neural Networks (CNNs)}
+CNNs sind speziell für die Bildverarbeitung entwickelte neuronale Netzwerke. Sie nutzen Convolution Layers, um Merkmale zu extrahieren (z. B. Kanten, Texturen) und sind äußerst effektiv für Bildklassifikationsaufgaben.
+
+\subsubsection{Generative Adversarial Networks (GANs)}
+GANs bestehen aus zwei konkurrierenden Netzwerken:
 \begin{itemize}
-    \item Sicherheit: Gesichtserkennung.
-    \item Medizin: Diagnostik.
-    \item Unterhaltung: Bildfilter und Effekte.
+    \item \textbf{Generator:} Erstellt neue Bilder.
+    \item \textbf{Diskriminator:} Bewertet die erzeugten Bilder auf ihre Echtheit.
+\end{itemize}
+GANs werden oft zur Erzeugung realistischer Bilder verwendet.
+
+\subsection{Anwendungen der KI-Bilderkennung}
+Bilderkennung wird in verschiedenen Bereichen eingesetzt:
+\begin{itemize}
+    \item \textbf{Überwachungssysteme:} Erkennung von Straftaten und automatisierte Alarme, Identitätsprüfung gesuchter Personen (z. B. in China)
+    \item \textbf{Medizinische Diagnostik:} Unterstützung von Ärzten bei der Analyse medizinischer Bilder, Früherkennung von Krankheiten wie Krebs oder neurologischen Erkrankungen
+    \item \textbf{Automobilbranche:} Autonomes Fahren durch Objekterkennung, Vermeidung von Kollisionen und Erkennung von Verkehrszeichen
+\end{itemize}
+
+\subsection{Herausforderungen in der Bilderkennung}
+Trotz der Fortschritte gibt es einige Herausforderungen:
+\begin{itemize}
+    \item \textbf{Bias und Diskriminierung:} Unausgewogene Trainingsdaten können zu Vorurteilen führen.
+    \item \textbf{Rechenleistung:} Bilderkennung erfordert hohe Rechenkapazitäten.
+    \item \textbf{Urheberrecht:} Nutzung von Bilddaten kann rechtliche Probleme aufwerfen.
+    \item \textbf{Datenqualität:} Schlechte Bildqualität beeinflusst die Erkennungsgenauigkeit.
+\end{itemize}
+
+\subsection{Datenschutz in der Bilderkennung}
+Datenschutz ist ein zentrales Thema:
+\begin{itemize}
+    \item \textbf{Transparenz:} Wer speichert die Bilddaten und wofür?
+    \item \textbf{Medizinische Daten:} Verwendung von Patientendaten nur mit Zustimmung.
+    \item \textbf{Überwachung:} Risiken durch Gesichtserkennung in öffentlichen Räumen.
 \end{itemize}
 
 \section{Datenschutz bei KI}
@@ -194,15 +223,28 @@ Die Integration von KI in emotionale Themen bietet ein enormes Potenzial, stellt
 
 % Psychologische Auswirkungen
 \section{Psychologische Auswirkungen von KI}
-\textbf{Präsentiert von: Flo}
 
-KI beeinflusst das menschliche Verhalten, von verstärktem Komfort bis hin zu Herausforderungen wie Arbeitsplatzverlust und Abhängigkeit.
+Künstliche Intelligenz (KI) hat tiefgreifende Auswirkungen auf das menschliche Verhalten und die Psyche. Einerseits ermöglicht KI-gestützte Automatisierung einen erhöhten Komfort, da viele alltägliche Aufgaben vereinfacht oder vollständig übernommen werden. Sprachassistenten, personalisierte Empfehlungen und intelligente Systeme bieten eine bisher nie dagewesene Unterstützung und Effizienzsteigerung.
 
+Andererseits bringt die Nutzung von KI auch Herausforderungen und Risiken mit sich. Die Abhängigkeit von KI-Systemen kann beispielsweise dazu führen, dass kognitive Fähigkeiten wie Gedächtnisleistung oder Problemlösungsfähigkeiten weniger gefordert werden. Besonders in der Entscheidungsfindung kann eine übermäßige Verlassung auf KI die Eigenständigkeit des Menschen beeinträchtigen.
+
+Ein weiteres zentrales Thema ist der Einfluss von KI auf die psychische Gesundheit. Soziale KI-Interaktionen, etwa mit Chatbots oder virtuellen Assistenten, können zwar Einsamkeit lindern, jedoch auch soziale Isolation verstärken, wenn digitale Alternativen persönliche Beziehungen ersetzen. Die emotionale Bindung an KI kann zudem zu unrealistischen Erwartungen und Missverständnissen führen.
+
+Darüber hinaus wirft der Einsatz von KI in psychologischen Anwendungen ethische Fragen auf. Zwar kann eine KI-gestützte Therapie unterstützend wirken, doch bleibt unklar, inwieweit KI tatsächlich in der Lage ist, emotionale Nuancen und komplexe Bedürfnisse von Menschen zu erfassen und angemessen zu berücksichtigen.
+
+\vspace{0.5cm}
 % Gesellschaftliche Implikationen
 \section{Gesellschaftliche Implikationen}
-\textbf{Präsentiert von: Florian}
 
-Die Integration von KI in die Gesellschaft wirft Fragen zu Ethik, Arbeitsmarkt und sozialer Gerechtigkeit auf.
+Die fortschreitende Integration von KI in die Gesellschaft birgt sowohl Chancen als auch Herausforderungen. Ein zentrales Diskussionsthema ist dabei der Wandel des Arbeitsmarktes. Während KI-basierte Automatisierung zahlreiche Prozesse effizienter gestaltet, führt sie gleichzeitig zur Verdrängung traditioneller Berufe und erfordert neue Qualifikationen sowie umfassende Umschulungsmaßnahmen.
+
+Ethische Fragen spielen eine wesentliche Rolle bei der Implementierung von KI in gesellschaftliche Strukturen. Insbesondere der verantwortungsvolle Umgang mit personenbezogenen Daten, algorithmische Fairness und Transparenz sind entscheidend, um Diskriminierung und Missbrauch vorzubeugen. Wenn Trainingsdaten nicht sorgfältig ausgewählt und validiert werden, kann KI bestehende Vorurteile verstärken.
+
+Zudem verändert KI die Art und Weise, wie Menschen miteinander interagieren. Soziale Netzwerke und digitale Plattformen nutzen KI-gestützte Algorithmen, um Inhalte zu filtern und das Nutzererlebnis zu personalisieren. Dies kann jedoch zu Filterblasen und gesellschaftlicher Polarisierung beitragen, wenn nur Inhalte angezeigt werden, die bestehende Ansichten bestärken.
+
+Darüber hinaus stellt sich die Frage nach der gesellschaftlichen Verantwortung von KI-Entwicklern und Entscheidungsträgern. Wie lässt sich sicherstellen, dass KI-Systeme dem Gemeinwohl dienen? Welche regulatorischen Rahmenbedingungen sind notwendig, um sowohl Innovation zu fördern als auch Missbrauch effektiv zu verhindern?
+
+Letztendlich ist eine ausgewogene Herangehensweise gefordert, die sowohl die technologischen Möglichkeiten als auch die gesellschaftlichen Herausforderungen gleichermaßen berücksichtigt. Nur durch einen interdisziplinären Dialog zwischen Wissenschaft, Politik und Gesellschaft kann eine ethisch verantwortungsbewusste Nutzung von KI sichergestellt werden.
 
 % Praktische Erfahrungen
 \section{Praktische Erfahrungen mit KI}
